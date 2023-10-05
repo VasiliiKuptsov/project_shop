@@ -5,6 +5,6 @@ from catalog.views import home_page, adress_page
 
 
 urlpatterns = [
-    path('', home_page),
     path('', adress_page),
+    path('', home_page),
 ]
