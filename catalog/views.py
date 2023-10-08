@@ -11,7 +11,7 @@ def adress_page(request):
     return render(request,'catalog/adress_page.html')
 
 def home_page(request):
-    return render(request,'catalog/catalog1/home_page.html')
+    return render(request,'catalog/includes/home_page.html')
 
 
 
